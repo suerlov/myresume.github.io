@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/onepage-scroll.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.onepage-scroll.min.js"></script>
+    <title>tantian</title>
+    <style>
+        .page1 { background: url(asset/bg.jpg) center no-repeat;background-size: cover; }
+        .page2,.page4,.page5 { background-color: #f0f2f7;}
+        .page3{background-color: #2c3e50;}
+    </style>
+    <script type="text/javascript">
+        $(function(){
+    $('.main').onepage_scroll({
+        sectionContainer: '.page',
+        updateURL: true,
+        loop: false,
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="main">
+    <div class="page page1">
+            <div class="navbar">
+            <ul class="nav">
+                <li class="nav-about">关于</a></li>
+                <li class="nav-works">作品</li>
+                <li class="nav-home">首页</li>
+                <li class="nav-skill">能力</li>
+                <li class="nav-contact">联系</li>
+            </ul>
+            </div>
+
+            <div class="cover">
+            <div class="section">
+            <p>Hi, 我是 谈天,</p>
+            <p>擅长前端，喜欢设计，同时向着全栈方向学习中</p>
+            <p>想了解更多，请往下滚动( ' – ' ) </p>
+            </div>
+            </div>
+
+    </div>
+    <div class="page page2">
+            <div class="resume">
+            <h1>关于本人</h1>
+            <h5>基本信息</h5>
+            <P>我是一名应届毕业生，我对互联网非常感兴趣，自学了网站开发一年。</P>
+            <h5>教育背景</h5>
+            <p><t>软件工程</t><br/>
+                        沈阳师范大学<br/>
+            </p>
+            <p><sm>毕业于2016</sm><br/>
+                    <imp><sm>找工作中</sm></imp>
+                    </p>
+
+                <hr>
+                <h5>证书奖项</h5>
+                <p><t>英语四六级</t><br/>
+                    <br/><sm>2013</sm>
+                    </p>
+
+                    <p><t>学习优秀奖学金</t><br/>
+                    <p><sm>2014</sm></p>
+            </div>
+    </div>
+    <div class="page page3">
+        <div class="myworks">
+        <h1>我的作品</h1>
+        <div class="grid">
+            <figure class="effect-julia">
+                <img src="asset/weibo.jpg" alt="微博网站"/>
+                <figcaption>
+                    <h2>微博 <span>网站</span></h2>
+                    <div>
+                        <p>毕业设计时所做的项目</p></br>
+                        <p>页面使用jQuery和Bootstrap开发</p></br>
+                        <p>后端使用python和nginx</p>
+                    </div>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-julia">
+                <img src="asset/frogger.png" alt="html5游戏"/>
+                <figcaption>
+                    <h2>青蛙 <span>过河</span></h2>
+                    <div>
+                        <p>一个html5小游戏</p></br>
+                        <p>主要使用html5的canvas和js实现</p>
+                    </div>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-julia">
+                <img src="asset/real-time.png" alt="网站实时分析"/>
+                <figcaption>
+                    <h2> <span>网站实时分析</span></h2>
+                    <div>
+                        <p>一个实时的网站流量分析功能的实现</p></br>
+                        <p>网站由nodejs实现，通过Socket.io实现返回用户信息</p>
+                        <p>实时记录每个页面的访问量和用户来源等信息</p>
+                    </div>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+        </div>
+        </div>
+    </div>
+    <div class="page page4">
+        <div class="skills">
+        <h1>技能水平</h1>
+        <ul>
+                <li >熟练掌握语义化的 HTML 和具有兼容性的 CSS 模式，实现较复杂的布局与动画。</li>
+                <li >对 可用性、可访问性、前端性能优化、最优实践 等有一定的了解和实践。</li>
+                <li >熟悉已标准化的 HTML5 / CSS3 新特性，实验项目中能尝试使用未广泛实现的新标准。</li>
+                <li >熟悉 webpack 、Vuejs、Sass 等等前端开发和团队协作工具。</li>
+                <li >掌握 jQuery，实现日常需要的交互效果。</li>
+                <li >能够使用 Node.js API / Express / Koa 搭建简单的后端程序与数据库交互、渲染模板及提供 RESTful API</li>
+                <li >了解 Ajax 工作原理和实现方法。</li>
+                <li >对用户体验和交互设计有一定的了解和追求。</li>
+                <li >使用Flask（Python）、rails（Ruby）和MongoDB/MySQL数据库搭建过简单的服务器。</li>
+                <li >服务器使用自己搭建环境的 VPS，对 macOS和Ubuntu等linux类系统有使用经验。</li>
+                <li >熟悉Python，能实现简单的自动化脚本、爬虫、机器学习算法。</li>
+                <li >具备基本的 Web 安全知识（X.509 / XSS / CSRF 等）</li>
+            </ul>
+        </div>
+    </div>
+    <div class="page page5">
+        <div class="contract">
+        <h1>联系方式</h1>
+            <ul>
+                        <li>邮箱：<a target="_blank" href="mailto:tantian1991@gmail.com">tantian1991@gmail.com</a></li>
+                        <li>Q Q ：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=934171065&amp;site=qq&amp;menu=yes">934171065</a></li>
+                        <li>Github：<a target="_blank" href="https://github.com/suerlov">@suerlov</a></li>
+                        <li>手机号：15811320979</li>
+                        <li>地址：北京昌平</li>
+                    </ul>
+        </div>
+        <footer class="footer">
+            <div class="container">
+            <p>Created by <a href=#>谈天</a></p>
+        </div>
+        </footer>
+    </div>
+</div>
+ <script type="text/javascript">
+     $(".nav-about").click(function(){
+        $(".main").moveTo(2);
+        $("p").addClass('move');
+    });
+    $(".nav-works").click(function(){
+        $(".main").moveTo(3);
+    });
+    $(".nav-skill").click(function(){
+        $(".main").moveTo(4);
+        $("li").addClass('move');
+    });
+    $(".nav-contact").click(function(){
+        $(".main").moveTo(5);
+        $("li").addClass('move');
+     });
+ </script>
+</body>
+</html>
