@@ -105,8 +105,9 @@ i{
 }
 
 
-imp {
-    padding: 6px;
+.imp{
+
+    padding: 2px;
     color: white;
     background: #34495e;
 }
